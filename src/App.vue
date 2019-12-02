@@ -1,16 +1,23 @@
 <template>
   <div id="app">
-    <Header/>
+    
+    
+    <AppBodyStructure/>
   </div>
 </template>
 
 <script>
-import Header from "./components/Header.vue"
+
+import AppBodyStructure from './components/AppBodyStructure'
+
 
 export default {
   name: 'app',
   components: {
-    Header
+    
+    AppBodyStructure,
+    
+
   }
 }
 </script>
